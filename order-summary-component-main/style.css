@@ -1,0 +1,53 @@
+.main{
+    background: #E0E8FF;
+}
+.bg-iamge{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+}
+.my-10{
+    margin-top:10rem;
+}
+.rounded-top-xl{
+    border-radius:15px 15px 0px 0px;
+}
+.rounded-bottom-xl{
+    border-radius: 0px 0px 15px 15px;
+}
+.rounded-xl{
+    border-radius: 10px;
+}
+.w-20{
+    width: 28.2rem;
+}
+.text-dark-blue{
+color: #2a208d;
+}
+.pl-5{
+    padding-left: 4rem;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.button-color{
+    background: hsl(245, 75%, 52%);
+    border: 0;
+}
+.h-10{
+    height: 3rem;
+}
+.text-light-gray{
+    color: gray;
+}
+@media (max-width: 576px){
+    .mobile-bg-image{
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    .image-width{
+        width: 20rem;
+    }
+    .mt-20{
+        margin-top:5rem;
+        margin-bottom: 5rem;
+    }
+}
